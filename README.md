@@ -1,7 +1,7 @@
 flyway-678
 ==========
 
-repro project 4 https://github.com/flyway/flyway/issues/678
+repro project 4 https://github.com/flyway/flyway/issues/678 and https://github.com/flyway/flyway/issues/1216.
 
 
 1. define properties for database in flyway-settings.xml
