@@ -10,12 +10,12 @@ repro project 4 https://github.com/flyway/flyway/issues/678
 
 ```
 [ERROR] Failed to execute goal org.flywaydb:flyway-maven-plugin:3.2.1:migrate (default-cli) on project flyway: org.flywaydb.core.internal.dbsupport.FlywaySqlScriptException:
-[ERROR] Migration V3__alter triggers.sql failed
-[ERROR] ---------------------------------------
+[ERROR] Migration V3__alter trigger.sql failed
+[ERROR] --------------------------------------
 [ERROR] SQL State  : 42000
 [ERROR] Error Code : 102
 [ERROR] Message    : Incorrect syntax near 'GO'.
-[ERROR] Location   : db/migration/V3__alter triggers.sql (C:\WS\UPBillPay\flyway-678\target\classes\db\migration\V3__alter triggers.sql)
+[ERROR] Location   : db/migration/V3__alter trigger.sql (C:\WS\UPBillPay\flyway-678\target\classes\db\migration\V3__alter trigger.sql)
 [ERROR] Line       : 1
 [ERROR] Statement  : ALTER TRIGGER CUSTOMER_INSERT ON CUSTOMER AFTER
 [ERROR] INSERT AS
