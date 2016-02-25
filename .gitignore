@@ -5,3 +5,5 @@ target
 .project
 bin
 test-output
+.idea/
+*.iml
